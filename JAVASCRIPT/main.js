@@ -7,3 +7,9 @@ links.forEach((link) => {
     link.classList.add("active");
   }
 });
+
+// active btn
+const workoutPlanner = document.querySelector("#btn-workuot");
+const startWorkout = document.querySelector("#btn-start");
+const sectionWorkout = document.querySelector("#workout-planner");
+const sectionStart = document.querySelector("#start-workout");
