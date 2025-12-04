@@ -3,6 +3,13 @@ const formBrowse = document.querySelector("#all-target");
 const muscleSelect = document.querySelector("#muscle");
 const daySelect = document.querySelector("#day");
 
+// Load DOM for browse
+document.addEventListener("DOMContentLoaded", () => {
+  const saved = getBrowseData() || {}; // {} if null
+  if (saved.muscle && muscleSelect) muscleSelect.value = saved.muscle;
+  if (saved.day && daySelect) daySelect.value = saved.day;
+});
+
 // 2. Add event listener
 formBrowse.addEventListener("change", async () => {
   const selectedMuscle = muscleSelect ? muscleSelect.value : "";
