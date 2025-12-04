@@ -52,10 +52,10 @@ users track BMI, browse workouts by muscle group, monitor workout time, and use 
 
 ## 🛠️ Tools & Technologies
 
-- HTML5\
-- CSS3\
-- JavaScript\
-- Visual Studio Code\
+- HTML5
+- CSS3
+- JavaScript
+- Visual Studio Code
 - Vercel Hosting
 
 ## 🙏 Special Thanks
