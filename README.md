@@ -17,8 +17,7 @@ Code](https://img.shields.io/badge/VS%20Code-0078D4?style=for-the-badge&logo=vis
 ## 📌 Overview
 
 The Fitness Workout Planner is a modern web application built to help
-users track BMI, browse workouts by muscle group, plan weekly exercises,
-monitor workout time, and use an interactive workout calendar.
+users track BMI, browse workouts by muscle group, monitor workout time, and use an interactive workout calendar.
 
 ## ✨ Features
 
@@ -63,19 +62,14 @@ monitor workout time, and use an interactive workout calendar.
 
 ### 👨‍🏫 Teacher
 
-1.  @
+1.  Mohamud Osman @https://github.com/mchamoudadev
 
 ### 🤝 Team Support
 
-1.  @\
-2.  @\
-3.  @
+1.  Mr Sharafdin @https://github.com/sharafdin
+2.  Omar Jibril Abdulkadir @https://github.com/omartood
+3.  Mohamed Ahmed @https://github.com/Mo-deck
 
-## 🚀 How to Run Locally
-
-    git clone YOUR-REPOSITORY-LINK
-    cd fitness-workout-planner
-    code .
 
 ## 📄 License
 
