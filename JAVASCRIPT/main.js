@@ -52,3 +52,12 @@ startWorkout.addEventListener("click", (e) => {
   sectionWorkout.style.display = "none";
   saveLocalStorageDate();
 });
+
+// first BMI
+
+const weighRange = document.querySelector("#weight-range");
+const heightRange = document.querySelector("#height-range");
+const weightValue = document.querySelector("#weight-value");
+const heightValue = document.querySelector("#height-value");
+const bmiValue = document.querySelector("#bmi-value");
+const bmiStatus = document.querySelector("#bmi-status");
