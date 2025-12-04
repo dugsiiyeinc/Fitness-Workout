@@ -72,4 +72,18 @@ function updateBMI() {
   const heightInMeters = height / 100;
   const bmi = (weight / (heightInMeters * heightInMeters)).toFixed(1);
   bmiValue.textContent = bmi;
+
+  if (bmi < 18.5) {
+    bmiStatus.textContent = "Underweight";
+    bmiStatus.style.color = "orange";
+  } else if (bmi < 25) {
+    bmiStatus.textContent = "Normal";
+    bmiStatus.style.color = "green";
+  } else if (bmi < 30) {
+    bmiStatus.textContent = "Overweight";
+    bmiStatus.style.color = "orange";
+  } else {
+    bmiStatus.textContent = "Obese";
+    bmiStatus.style.color = "red";
+  }
 }
