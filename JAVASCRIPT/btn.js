@@ -21,4 +21,12 @@ formBrowse.addEventListener("change", async () => {
       "x-rapidapi-host": "exercises-by-api-ninjas.p.rapidapi.com",
     },
   };
+
+  try {
+    const response = await fetch(url, options);
+    const result = await response.json();
+    console.log(result);
+  } catch (error) {
+    console.error(error);
+  }
 });
